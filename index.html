@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SchoolHelper</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">
+    <div class="navbar__logo"></div>
+    <div class="navbar__menu">
+
+        <button class="navbar__menu-item active"  value="1">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h2 class="navbar__menu-item_header">Поиск</h2>
+        </button>
+        <button class="navbar__menu-item" value="2">
+            <i class="fa-solid fa-school"></i>
+            <h2 class="navbar__menu-item_header">Заметки</h2>
+        </button>
+        <button class="navbar__menu-item" value="3">
+            <i class="fa-solid fa-person-chalkboard"></i>
+            <h2 class="navbar__menu-item_header">Преподаватели</h2>
+        </button>
+        <button class="navbar__menu-item" value="4">
+            <i class="fa-solid fa-users"></i>
+            <h2 class="navbar__menu-item_header">Классы</h2>
+        </button>
+
+    </div>
+
+    <div class="navbar__btn-open">
+        <i class="fa-solid fa-bars"></i>
+<!--        <i class="fa-solid fa-xmark"></i>-->
+    </div>
+</div>
+
+<div class="central-search"></div>
+<div class="central__wisp"></div>
+<div class="central__teachers"></div>    
+<div class="central__classes"></div>
+
+<script src = 'script.js'></script>
+
+
+</body>
+</html>
